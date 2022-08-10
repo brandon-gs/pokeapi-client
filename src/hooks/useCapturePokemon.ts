@@ -71,11 +71,17 @@ function useCapturePokemon(pokemons: IPokemonAdapted[]) {
     if (!username) return;
     if (pokemons.length === 0) return;
 
+    socket.off(`captured-pokemon-${username}`);
+
     socket.on(`captured-pokemon-${username}`, (pokemonId: number) => {
       const pokemonById = pokemons.filter(
         (pokemon) => pokemon.id === pokemonId
       );
-      toast(`You catched a ${pokemonById[0].name.toLocaleUpperCase()}`, {
+      const name =
+        pokemonById.length > 0
+          ? pokemonById[0].name.toUpperCase()
+          : "new pokemon";
+      toast(`You catched a ${name}`, {
         theme: "colored",
         type: "success",
         position: "top-right",
