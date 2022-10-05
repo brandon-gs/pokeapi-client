@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pokeapi-client/static/css/main.421761b5.css",
-    "main.js": "/pokeapi-client/static/js/main.6904728e.js",
+    "main.js": "/pokeapi-client/static/js/main.3c3dd313.js",
     "static/js/132.927c757e.chunk.js": "/pokeapi-client/static/js/132.927c757e.chunk.js",
     "static/js/787.76f54053.chunk.js": "/pokeapi-client/static/js/787.76f54053.chunk.js",
     "static/media/PokeballIcon.svg": "/pokeapi-client/static/media/PokeballIcon.2db7de44dd9ea6558c0113d7d9e3db9d.svg",
@@ -11,12 +11,12 @@
     "static/media/Height.svg": "/pokeapi-client/static/media/Height.5245597dc6c3ec16ae60c7322d9b7b7d.svg",
     "static/media/Star.svg": "/pokeapi-client/static/media/Star.61b1cf6de08df8700a61a056e7b2d692.svg",
     "main.421761b5.css.map": "/pokeapi-client/static/css/main.421761b5.css.map",
-    "main.6904728e.js.map": "/pokeapi-client/static/js/main.6904728e.js.map",
+    "main.3c3dd313.js.map": "/pokeapi-client/static/js/main.3c3dd313.js.map",
     "132.927c757e.chunk.js.map": "/pokeapi-client/static/js/132.927c757e.chunk.js.map",
     "787.76f54053.chunk.js.map": "/pokeapi-client/static/js/787.76f54053.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.421761b5.css",
-    "static/js/main.6904728e.js"
+    "static/js/main.3c3dd313.js"
   ]
 }
