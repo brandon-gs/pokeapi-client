@@ -2,6 +2,7 @@
   "name": "web-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://brandon-gs.github.io/{pokeapi-client}",
   "dependencies": {
     "@craco/craco": "^6.4.5",
     "@reduxjs/toolkit": "^1.8.3",
@@ -33,7 +34,9 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "dev": "craco start"
+    "dev": "craco start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-lazy-load-image-component": "^1.5.2"
+    "@types/react-lazy-load-image-component": "^1.5.2",
+    "gh-pages": "^4.0.0"
   }
 }
