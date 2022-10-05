@@ -2,7 +2,7 @@
   "name": "web-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://brandon-gs.github.io/{pokeapi-client}",
+  "homepage": "http://brandon-gs.github.io/pokeapi-client",
   "dependencies": {
     "@craco/craco": "^6.4.5",
     "@reduxjs/toolkit": "^1.8.3",
