@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/pokeapi-client/static/css/main.4face07f.css",
-    "main.js": "/pokeapi-client/static/js/main.7f29f646.js",
+    "main.css": "/pokeapi-client/static/css/main.1f871576.css",
+    "main.js": "/pokeapi-client/static/js/main.1665c187.js",
     "static/js/132.927c757e.chunk.js": "/pokeapi-client/static/js/132.927c757e.chunk.js",
     "static/js/787.76f54053.chunk.js": "/pokeapi-client/static/js/787.76f54053.chunk.js",
+    "static/media/PokemonLogo.png": "/pokeapi-client/static/media/PokemonLogo.98927b2f7e1c1a33bbef.png",
     "static/media/PokeballIcon.svg": "/pokeapi-client/static/media/PokeballIcon.2db7de44dd9ea6558c0113d7d9e3db9d.svg",
     "static/media/Weight.svg": "/pokeapi-client/static/media/Weight.5b6ae8803dfeb3ad3f8547213444e8c5.svg",
     "static/media/Pokeball.svg": "/pokeapi-client/static/media/Pokeball.abbfa8464e3c8b8d24380bd270a3f4b6.svg",
     "index.html": "/pokeapi-client/index.html",
     "static/media/Height.svg": "/pokeapi-client/static/media/Height.5245597dc6c3ec16ae60c7322d9b7b7d.svg",
     "static/media/Star.svg": "/pokeapi-client/static/media/Star.61b1cf6de08df8700a61a056e7b2d692.svg",
-    "main.4face07f.css.map": "/pokeapi-client/static/css/main.4face07f.css.map",
-    "main.7f29f646.js.map": "/pokeapi-client/static/js/main.7f29f646.js.map",
+    "main.1f871576.css.map": "/pokeapi-client/static/css/main.1f871576.css.map",
+    "main.1665c187.js.map": "/pokeapi-client/static/js/main.1665c187.js.map",
     "132.927c757e.chunk.js.map": "/pokeapi-client/static/js/132.927c757e.chunk.js.map",
     "787.76f54053.chunk.js.map": "/pokeapi-client/static/js/787.76f54053.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4face07f.css",
-    "static/js/main.7f29f646.js"
+    "static/css/main.1f871576.css",
+    "static/js/main.1665c187.js"
   ]
 }
