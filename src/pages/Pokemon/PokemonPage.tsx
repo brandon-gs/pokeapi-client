@@ -1,5 +1,6 @@
+import { PokemonSaveUser } from "@/components";
 import { PokemonList } from "@/containers";
-import { getUsername, setUsername } from "@/utils";
+import { getUsername } from "@/utils";
 import { useEffect, useState } from "react";
 import "./PokemonPage.styles.css";
 
@@ -7,21 +8,25 @@ function PokemonPage() {
   const [hasUsername, setHasUsername] = useState<boolean>(false);
 
   useEffect(() => {
-    const savedUsername = getUsername();
-    // Set the username for the user
-    if (savedUsername === null) {
-      const newName = prompt("Enter your username to get your progress");
-      if (newName) {
-        setUsername(newName);
+    function lookforUsername() {
+      const savedUsername = getUsername();
+      if (savedUsername !== null) {
         setHasUsername(true);
       }
-    } else {
-      setHasUsername(true);
     }
+    lookforUsername();
+    window.addEventListener("storage", lookforUsername);
+    return () => {
+      window.removeEventListener("storage", lookforUsername);
+    };
   }, []);
 
   if (!hasUsername) {
-    return null;
+    return (
+      <div className="page-pokemon-save-user">
+        <PokemonSaveUser />
+      </div>
+    );
   }
 
   return (

@@ -5,6 +5,7 @@ export { default as PokemonInfo } from "./Pokemon/PokemonInfo/PokemonInfo";
 export { default as PokemonInstructions } from "./Pokemon/PokemonInstructions/PokemonInstructions";
 export { default as PokemonListStatBar } from "./Pokemon/PokemonListStatBar/PokemonListStatBar";
 export { default as PokemonPokeballLoader } from "./Pokemon/PokemonPokeballLoader/PokemonPokeballLoader";
+export { default as PokemonSaveUser } from "./Pokemon/PokemonSaveUser/PokemonSaveUser";
 export { default as PokemonStatBar } from "./Pokemon/PokemonStatBar/PokemonStatBar";
 export { default as PokemonType } from "./Pokemon/PokemonType/PokemonType";
 export { default as PokemonTypeList } from "./Pokemon/PokemonTypeList/PokemonTypeList";
